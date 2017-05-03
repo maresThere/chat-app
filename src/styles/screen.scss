@@ -11,3 +11,28 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chatWindow {
+  height: 90vh;
+  width: 80vw;
+  border-radius: 5%;
+  background-color: rgb(25, 127, 161);
+
+  #userName {
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 70px;
+    background-color: rgb(81, 81, 81);
+  }
+  input {
+    width: 400px;
+    height: 40px;
+  }
+}
